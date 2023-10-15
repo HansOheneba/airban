@@ -7,39 +7,64 @@
     <link rel="icon" href="dist/img/icon.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link href="dist/output.css" rel="stylesheet">
 </head>
 
-<body class="p-0 m-0">
-    <section style="background-image: url('dist/img/hero.png');" class="bg-cover">
-        <header  class=" pt-16  text-white h-fit ">
-            <nav class="flex justify-between items-center w-4/5 mx-auto ">
+<body class="p-0 m-0 font-open">
+    <section style="background-image: url('dist/img/hero.png');" class="bg-cover relative">
+        <header class=" w-4/5 mx-auto pt-16 text-white h-fit ">
+            <nav class="flex justify-between items-center   ">
                 <div>
-                    <a href="index.html"><img class="h-10"  src="dist/img/logo.png" alt="Airban Homes"></a>
+                    <a href="index.html"><img class="h-12" src="dist/img/logo.png" alt="Airban Homes"></a>
                 </div>
                 <div>
                     <ul class="flex gap-4 font-poppins font-normal text-md">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Our Doors</a></li>
-                        <li><a href="">Newsroom</a></li>
-                        <li><a href="">Contact Us</a></li>
-                        <li><a href="">About Us</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Our Doors</a></li>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
                     </ul>
                 </div>
             </nav>
-<div class="flex justify-between w-full items-end pt-24">
-    <div class="h-full w-1/2">
-        <p class=" items-center">
-        <h1>
-            <h1>Step Into <br> Distinctive Homes</h1>
-        </h1>
-    </p>
-</div>
-    <img class="w-2/5" src="dist/img/heroHouse.png" alt="">
-</div>
-        </header></section>
+            <div class="flex justify-between w-full pt-24">
+                <div class="h-full flex flex-col justify-between py-20 gap-10">
+
+                    <h1 class="text-7xl font-semibold">Step Into <br> Distinctive Homes</h1>
+
+                    <p>Begin your journey towards home ownership <br>
+                        with us today, with Airban homes home ownership is made easy...</p>
+
+                    <div>
+                        <div class="flex bg-white w-fit text-black font-semibold rounded-t-md text-sm mb-2">
+                            <a href="#"><div class="px-10 py-2 "><p>Buy</p></div></a>
+                            <a href="#"><div class="px-10 py-2"><p>Sell</p></div></a>
+                        </div>
+                        <div class="flex bg-white w-fit text-black text-sm rounded-tr-md rounded-b-md">
+                            <div class="flex items-center">
+                                <p class="text-slate-500 py-4 px-7">Location <br> <span class="text-black font-bold">Spintex, Accra</span>
+                                </p>
+                                <div class=" border-slate border-l-2 border-solid h-10"></div>
+                                <p class="text-slate-500 py-4 px-7">Location <br> <span class="text-black font-bold">Spintex, Accra</span>
+                                </p>
+                                <div class=" border-slate border-l-2 border-solid h-10"></div>
+                                <div class="px-14">
+                                    <a href="#">
+                                        <button class="text-white bg-airbanBlue rounded-md py-2 px-5 font-semibold">Browse Properties</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="w-2/5 bottom-0 right-0 absolute" src="dist/img/heroHouse.png" alt="">
+            </div>
+        </header>
+    </section>
 </body>
 
 </html>
