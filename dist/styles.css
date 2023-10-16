@@ -698,11 +698,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -713,9 +708,9 @@ video {
   padding-bottom: 1rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .pt-16 {
@@ -732,10 +727,6 @@ video {
 
 .font-poppins {
   font-family: Poppins, sans-serif;
-}
-
-.font-inter {
-  font-family: Inter, sans-serif;
 }
 
 .text-7xl {
