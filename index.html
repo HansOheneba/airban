@@ -42,13 +42,13 @@
                     <div>
                         <div class="flex w-fit text-black font-semibold text-sm">
                             <a href="#">
-                                <div class=" bg-white px-10 py-2 rounded-tl-md border-blue-400 border-b-8 ">
-                                    <p>Buy</p>
+                                <div class=" border-b-transparent hover:border-blue-400 border-b-8 ">
+                                    <p class="bg-white px-10 py-2 rounded-tl-md">Buy</p>
                                 </div>
                             </a>
                             <a href="#">
-                                <div class="bg-white px-10 py-2 rounded-tr-md border-b-transparent">
-                                    <p>Sell</p>
+                                <div class=" rounded-tr-md border-b-8 hover:border-blue-400 border-b-transparent">
+                                    <p class="bg-white px-10 py-2 rounded-tr-md">Sell</p>
                                 </div>
                             </a>
                         </div>
@@ -78,8 +78,23 @@
         </header>
     </section>
     <section>
-        <div class="py-20">
-            <h1 class="text-center font-bold">Featured Listings</h1>
+        <div class="py-16">
+            <h1 class="text-center text-3xl font-bold">Featured Listings</h1>
+        </div>
+        <div class="flex px-10">
+            <div class="w-80">
+                <img class="h-52 object-cover" src="dist/img/homedecor.jpg"  alt="">
+                <div class="flex text-sm">
+                    <p>
+                        FOR SALE <br>
+                        3-bed Apartment&nbsp; 
+                    </p>
+                    <div class=" border-black border-l-2 border-solid h-4"></div>
+                    <p>
+                        &nbsp;67 sq.m <br> Spintex Road, Accra
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 </body>
