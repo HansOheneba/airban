@@ -14,7 +14,7 @@ module.exports = {
         'heroBg': "url('dist/img/hero.png')",
       },
       colors: {
-        'airbanBlue': '#134B86',
+        'airbanBlue': '#1B63A3',
       },
     },
   },
