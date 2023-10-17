@@ -6,7 +6,8 @@ module.exports = {
       'inter': ['Inter', 'sans-serif'],
 'open': ['Open Sans', 'sans-serif'],
 'poppins': ['Poppins', 'sans-serif'],
-'work': ['Work Sans', 'sans-serif']
+'work': ['Work Sans', 'sans-serif'],
+'ubuntu': ['Ubuntu', 'sans-serif']
     },
     extend: {
       backgroundImage: {
