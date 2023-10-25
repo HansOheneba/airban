@@ -15,6 +15,7 @@ module.exports = {
       },
       colors: {
         'airbanBlue': '#1B63A3',
+        'airbanFooter': '#134B86',
       },
     },
   },
