@@ -1,6 +1,10 @@
-/node_modules
-/example
-.vscode
+node_modules
+.next
+data
 .DS_Store
 .parcel-cache
-tailwind.config.js
+.vscode
+*.log
+.env
+.env.local
+*.tsbuildinfo
